@@ -23,6 +23,7 @@ vn\actvn\onthionline\client\dto\AddQuestionToExamRequest.class
 vn\actvn\onthionline\service\dto\ExamDto.class
 vn\actvn\onthionline\client\dto\AddExamRequest.class
 vn\actvn\onthionline\service\dto\RoleDto.class
+vn\actvn\onthionline\config\BcryptEncoderConfig.class
 vn\actvn\onthionline\common\exception\CustomAuthenticationEntryPoint.class
 vn\actvn\onthionline\service\dto\CommentDto.class
 vn\actvn\onthionline\common\exception\ValidationErrorResponse.class

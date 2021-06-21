@@ -33,19 +33,21 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     private JwtUserDetailsService jwtUserDetailsService;
     @Autowired
     private JwtRequestFilter jwtRequestFilter;
+    @Autowired
+    private BcryptEncoderConfig bcryptEncoderConfig;
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         // configure AuthenticationManager so that it knows from where to load
         // user for matching credentials
         // Use BCryptPasswordEncoder
-        auth.userDetailsService(jwtUserDetailsService).passwordEncoder(new BCryptPasswordEncoder());
+        auth.userDetailsService(jwtUserDetailsService).passwordEncoder(bcryptEncoderConfig.bcryptEncoder());
     }
 
-    @Bean
-    public PasswordEncoder bcryptEncoder() {
-        return new BCryptPasswordEncoder();
-    }
+//    @Bean
+//    public PasswordEncoder bcryptEncoder() {
+//        return new BCryptPasswordEncoder();
+//    }
 
     @Override
     protected void configure(HttpSecurity httpSecurity) throws Exception {
