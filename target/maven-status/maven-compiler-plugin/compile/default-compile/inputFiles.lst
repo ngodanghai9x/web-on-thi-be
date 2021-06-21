@@ -52,6 +52,7 @@ G:\Tài liệu học tập\Thực Tập Cơ Sở\on-thi-online-be\src\main\java\
 G:\Tài liệu học tập\Thực Tập Cơ Sở\on-thi-online-be\src\main\java\vn\actvn\onthionline\client\dto\AddQuestionToExamResponse.java
 G:\Tài liệu học tập\Thực Tập Cơ Sở\on-thi-online-be\src\main\java\vn\actvn\onthionline\client\dto\GetImgProfileResponse.java
 G:\Tài liệu học tập\Thực Tập Cơ Sở\on-thi-online-be\src\main\java\vn\actvn\onthionline\common\utils\OptimizedPage.java
+G:\Tài liệu học tập\Thực Tập Cơ Sở\on-thi-online-be\src\main\java\vn\actvn\onthionline\config\BcryptEncoderConfig.java
 G:\Tài liệu học tập\Thực Tập Cơ Sở\on-thi-online-be\src\main\java\vn\actvn\onthionline\client\dto\GetQuestionResponse.java
 G:\Tài liệu học tập\Thực Tập Cơ Sở\on-thi-online-be\src\main\java\vn\actvn\onthionline\domain\Comment.java
 G:\Tài liệu học tập\Thực Tập Cơ Sở\on-thi-online-be\src\main\java\vn\actvn\onthionline\common\exception\CustomAuthenticationEntryPoint.java
