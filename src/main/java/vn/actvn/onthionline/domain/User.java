@@ -23,7 +23,7 @@ import java.util.*;
 public class User implements Serializable, UserDetails {
     private static final long serialVersionUID = 1L;
 
-    @Id
+    @javax.persistence.Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 

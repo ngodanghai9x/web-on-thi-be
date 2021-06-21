@@ -17,7 +17,7 @@ import java.util.Objects;
 public class Comment implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    @Id
+    @javax.persistence.Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 

@@ -15,7 +15,7 @@ import java.util.*;
 @Table(name = "exam_history")
 public class ExamHistory {
 
-    @Id
+    @javax.persistence.Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
