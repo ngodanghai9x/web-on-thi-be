@@ -1,0 +1,336 @@
+{
+	"info": {
+		"_postman_id": "812a4fb9-f207-440d-bb1a-c557692eb949",
+		"name": "Update Exam & Question",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Exam Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJST0xFIjpbIlJPTEVfQURNSU4iXSwic3ViIjoiYWRtaW4iLCJpcCI6IjA6MDowOjA6MDowOjA6MSIsInVzZXJBZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjYuNSIsImZ1bGxuYW1lIjoiQWRtaW4gc2nDqnUgY3V0ZSIsImV4cCI6MTYwMjk1OTk1NiwiaWF0IjoxNjAyOTQxOTU2fQ.Hsb_MFbxX4fDVfqPAOP0_7atC7QMFv-AOchhobKwFmLfbnOmWLfPQPhI-uGQPht5olBl7ebkJLBL2V-h0kb-hg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"body\": {\n       \"exam\":{\n         \"name\":\"Đề luyện thi THPT Quốc gia 2020 môn Toán - Đề số 4\",\n         \"subject\":\"toan\",\n         \"grade\":\"college\",\n         \"mixedQuestion\": true,\n         \"description\":\"Mời các em cùng tham khảo đề thi thử THPT Quốc gia 2020 môn Toán - Đề số 1 (Có đáp án) được chia sẻ để có thêm tài liệu ôn tập chuẩn bị cho kì thi THPT Quốc gia năm 2020 sắp tới. Tài liệu đi kèm có đáp án giúp các em so sánh kết quả bài làm và tự đánh giá được lực học của bản thân, từ đó đặt ra kế hoạch ôn tập phù hợp giúp để đạt kết quả cao trong kì thi.\",\n         \"time\":40,\n         \"examQuestions\":[\n            {\n               \"question\":\"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n               \"type\":\"one\",\n               \"option1\":\"x = 5\",\n               \"option2\":\"x ≠ 5\",\n               \"option3\":\"x ≤ 5 \",\n               \"option4\":\"x ≥ 5\",\n               \"suggestion\":null,\n               \"mode\": \"easy\",\n               \"correctAnswer\":[\"x ≥ 5\"]\n            },\n            {\n               \"question\":\"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n               \"type\":\"one\",\n               \"option1\":\"x = 5\",\n               \"option2\":\"x ≠ 5\",\n               \"option3\":\"x ≤ 5 \",\n               \"option4\":\"x ≥ 5\",\n               \"suggestion\":null,\n               \"mode\": \"easy\",\n               \"correctAnswer\":[\"x ≥ 5\"]\n            },\n            {\n               \"question\":\"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n               \"type\":\"one\",\n               \"option1\":\"x = 5\",\n               \"option2\":\"x ≠ 5\",\n               \"option3\":\"x ≤ 5 \",\n               \"option4\":\"x ≥ 5\",\n               \"suggestion\":null,\n               \"mode\": \"easy\",\n               \"correctAnswer\":[\"x ≥ 5\"]\n            },\n            {\n               \"question\":\"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n               \"type\":\"one\",\n               \"option1\":\"x = 5\",\n               \"option2\":\"x ≠ 5\",\n               \"option3\":\"x ≤ 5 \",\n               \"option4\":\"x ≥ 5\",\n               \"suggestion\":null,\n               \"mode\": \"easy\",\n               \"correctAnswer\":[\"x ≥ 5\"]\n            },\n            {\n               \"question\":\"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n               \"type\":\"multi\",\n               \"option1\":\"x = 5\",\n               \"option2\":\"x ≠ 5\",\n               \"option3\":\"x ≤ 5\",\n               \"option4\":\"x ≥ 5\",\n               \"suggestion\":null,\n               \"mode\": \"easy\",\n               \"correctAnswer\":[\"x ≥ 5\", \"x ≤ 5\"]\n            }\n         ]\n      }\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/api/exam/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"exam",
+						"add"
+					]
+				},
+				"description": "Api thêm bài thi mới dành cho admin (Y/c đăng nhập acc admin)"
+			},
+			"response": []
+		},
+		{
+			"name": "Do Exam Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJST0xFIjpbIlJPTEVfVVNFUiJdLCJzdWIiOiJnaWFuZ25kNiIsImlwIjoiMDowOjA6MDowOjA6MDoxIiwidXNlckFnZW50IjoiUG9zdG1hblJ1bnRpbWUvNy4yNi41IiwiZnVsbG5hbWUiOiJOZ2hpw6ptIMSQw6xuaCBHaWFuZyIsImV4cCI6MTYwMjk2MDQwNiwiaWF0IjoxNjAyOTQyNDA2fQ._yQ_7f3pSXovNGUE3G_XagflFw-InLtx0LpfCVh7jm39Rp710V3L-Sy-dF9IIbVPsZjkxASrnHzWY7rpqO1vwA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"body\": {\n        \"id\":1,\n        \"time\":10,\n        \"numOptionPicked\": [2,1,1,2],\n        \"questionAnswer\": [\n              {\n                    \"id\": 5,\n                    \"question\": \"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n                    \"type\": \"multi\",\n                    \"option1\": \"x ≠ 5\",\n                    \"option2\": \"x ≥ 5\",\n                    \"option3\": \"x = 5\",\n                    \"option4\": \"x ≤ 5\",\n                    \"answer\": [\"x ≤ 5\", \"x ≥ 5\"]\n                },\n                {\n                    \"id\": 3,\n                    \"question\": \"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n                    \"type\": \"one\",\n                    \"option1\": \"x ≥ 5\",\n                    \"option2\": \"x ≤ 5 \",\n                    \"option3\": \"x ≠ 5\",\n                    \"option4\": \"x = 5\",\n                    \"answer\": [\"x ≥ 5\"]\n                },\n                {\n                    \"id\": 1,\n                    \"question\": \"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n                    \"type\": \"one\",\n                    \"option1\": \"x ≥ 5\",\n                    \"option2\": \"x = 5\",\n                    \"option3\": \"x ≤ 5 \",\n                    \"option4\": \"x ≠ 5\",\n                    \"answer\": [\"x ≥ 5\"]\n                },\n                {\n                    \"id\": 4,\n                    \"question\": \"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n                    \"type\": \"one\",\n                    \"option1\": \"x = 5\",\n                    \"option2\": \"x ≥ 5\",\n                    \"option3\": \"x ≠ 5\",\n                    \"option4\": \"x ≤ 5 \",\n                    \"answer\": [\"x ≥ 5\"]\n                },\n                {\n                    \"id\": 2,\n                    \"question\": \"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n                    \"type\": \"one\",\n                    \"option1\": \"x ≠ 5\",\n                    \"option2\": \"x ≤ 5 \",\n                    \"option3\": \"x ≥ 5\",\n                    \"option4\": \"x = 5\",\n                    \"answer\": []\n                }\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/api/profile/do-exam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"profile",
+						"do-exam"
+					]
+				},
+				"description": "Khi user nộp bài"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Exam For User Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJST0xFIjpbIlJPTEVfVVNFUiJdLCJzdWIiOiJnaWFuZ25kNiIsImlwIjoiMDowOjA6MDowOjA6MDoxIiwidXNlckFnZW50IjoiUG9zdG1hblJ1bnRpbWUvNy4yNi41IiwiZnVsbG5hbWUiOiJOZ2hpw6ptIMSQw6xuaCBHaWFuZyIsImV4cCI6MTYwMjk2MDQwNiwiaWF0IjoxNjAyOTQyNDA2fQ._yQ_7f3pSXovNGUE3G_XagflFw-InLtx0LpfCVh7jm39Rp710V3L-Sy-dF9IIbVPsZjkxASrnHzWY7rpqO1vwA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"body\": {\n        \"id\":1\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/get-exam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"get-exam"
+					]
+				},
+				"description": "Api get bài thi dành cho user để vào thi"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Exam Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJST0xFIjpbIlJPTEVfQURNSU4iXSwic3ViIjoiYWRtaW4iLCJpcCI6IjA6MDowOjA6MDowOjA6MSIsInVzZXJBZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjYuNSIsImZ1bGxuYW1lIjoiQWRtaW4gc2nDqnUgY3V0ZSIsImV4cCI6MTYwMjk2MDQ0OCwiaWF0IjoxNjAyOTQyNDQ4fQ.ixyF9FzZ7qOtjDHJwsfH1rlo2Q3zD5Z141PjqHw7aC4nWvxLaS7B9yZf2XQBR3ys0B6oFN32ZJVP93yivVAx4w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"body\": {\n        \"exam\": {\n            \"id\": 1,\n            \"name\": \"Đề luyện thi THPT Quốc gia 2020 môn Toán - Đề số 1 Updated\",\n            \"subject\": \"toan\",\n            \"grade\": \"college\",\n            \"description\": \"Mời các em cùng tham khảo đề thi thử THPT Quốc gia 2020 môn Toán - Đề số 1 (Có đáp án) được chia sẻ để có thêm tài liệu ôn tập chuẩn bị cho kì thi THPT Quốc gia năm 2020 sắp tới. Tài liệu đi kèm có đáp án giúp các em so sánh kết quả bài làm và tự đánh giá được lực học của bản thân, từ đó đặt ra kế hoạch ôn tập phù hợp giúp để đạt kết quả cao trong kì thi.\",\n            \"mixedQuestion\": true,\n            \"numQuestion\": null,\n            \"time\": 40,\n            \"isActive\": true,\n            \"canDelete\": false,\n            \"examQuestions\": [\n                {\n                    \"id\": 1,\n                    \"question\": \"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n Update\",\n                    \"type\": \"multi\",\n                    \"option1\": \"x = 5\",\n                    \"option2\": \"x ≠ 5\",\n                    \"option3\": \"x ≤ 5 \",\n                    \"option4\": \"x ≥ 5\",\n                    \"mode\": \"easy\",\n                    \"grade\": \"college\",\n                    \"subject\": \"toan\",\n                    \"suggestion\": null,\n                    \"correctAnswer\": [\n                        \"x ≥ 5\",\n                        \"x = 5\"\n                    ]\n                },\n                {\n                    \"id\": 2,\n                    \"question\": \"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n                    \"type\": \"one\",\n                    \"option1\": \"x = 5\",\n                    \"option2\": \"x ≠ 5\",\n                    \"option3\": \"x ≤ 5 \",\n                    \"option4\": \"x ≥ 5\",\n                    \"mode\": \"easy\",\n                    \"grade\": \"college\",\n                    \"subject\": \"toan\",\n                    \"suggestion\": null,\n                    \"correctAnswer\": [\n                        \"x ≥ 5\"\n                    ]\n                },\n                {\n                    \"id\": 3,\n                    \"question\": \"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n                    \"type\": \"one\",\n                    \"option1\": \"x = 5\",\n                    \"option2\": \"x ≠ 5\",\n                    \"option3\": \"x ≤ 5 \",\n                    \"option4\": \"x ≥ 5\",\n                    \"mode\": \"easy\",\n                    \"grade\": \"college\",\n                    \"subject\": \"toan\",\n                    \"suggestion\": null,\n                    \"correctAnswer\": [\n                        \"x ≥ 5\"\n                    ]\n                },\n                {\n                    \"id\": 4,\n                    \"question\": \"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n                    \"type\": \"one\",\n                    \"option1\": \"x = 5\",\n                    \"option2\": \"x ≠ 5\",\n                    \"option3\": \"x ≤ 5 \",\n                    \"option4\": \"x ≥ 5\",\n                    \"mode\": \"easy\",\n                    \"grade\": \"college\",\n                    \"subject\": \"toan\",\n                    \"suggestion\": null,\n                    \"correctAnswer\": [\n                        \"x ≥ 5\"\n                    ]\n                },\n                {\n                    \"id\": 5,\n                    \"question\": \"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n Update\",\n                    \"type\": \"multi\",\n                    \"option1\": \"x = 5\",\n                    \"option2\": \"x ≠ 5\",\n                    \"option3\": \"x ≤ 5\",\n                    \"option4\": \"x ≥ 5\",\n                    \"mode\": \"easy\",\n                    \"grade\": \"college\",\n                    \"subject\": \"toan\",\n                    \"suggestion\": null,\n                    \"correctAnswer\": [\n                        \"x ≥ 5\",\n                        \"x ≤ 5\"\n                    ]\n                }\n            ]\n        }\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/api/exam/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"exam",
+						"update"
+					]
+				},
+				"description": "Api để update bài thi dành cho admin"
+			},
+			"response": []
+		},
+		{
+			"name": "Save Question Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJST0xFIjpbIlJPTEVfQURNSU4iXSwic3ViIjoiYWRtaW4iLCJpcCI6IjA6MDowOjA6MDowOjA6MSIsInVzZXJBZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjYuNSIsImZ1bGxuYW1lIjoiQWRtaW4gc2nDqnUgY3V0ZSIsImV4cCI6MTYwMjk2MDQ0OCwiaWF0IjoxNjAyOTQyNDQ4fQ.ixyF9FzZ7qOtjDHJwsfH1rlo2Q3zD5Z141PjqHw7aC4nWvxLaS7B9yZf2XQBR3ys0B6oFN32ZJVP93yivVAx4w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"body\": {\n        \"question\":{\n            \"id\": null,\n            \"question\":\"<p>Điều kiện x&aacute;c định của biểu thức P = 2018<img alt=\\\"Đề thi vào 10 môn Toán có đáp án | Đề thi môn Toán vào 10 có đáp án\\\" src=\\\"https://vietjack.com/de-thi-vao-10-mon-toan/images/de-thi-mon-toan-vao-10-trac-nghiem-tu-luan-1.PNG\\\" />&nbsp;l&agrave;:</p>\\n\",\n            \"type\":\"one\",\n            \"option1\":\"x = 5\",\n            \"option2\":\"x ≠ 5\",\n            \"option3\":\"x ≤ 5 \",\n            \"option4\":\"x ≥ 5\",\n            \"suggestion\":null,\n            \"mode\": \"easy\",\n            \"subject\":\"toan\",\n            \"grade\":\"college\",\n            \"correctAnswer\":[\"x ≥ 5\"]\n        }\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/api/question/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"question",
+						"save"
+					]
+				},
+				"description": "Dùng cho thêm mới hoặc sửa câu hỏi. Nếu thêm mới thì cho id = null"
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Question Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJST0xFIjpbIlJPTEVfQURNSU4iXSwic3ViIjoiYWRtaW4iLCJpcCI6IjA6MDowOjA6MDowOjA6MSIsInVzZXJBZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjYuNSIsImZ1bGxuYW1lIjoiQWRtaW4gc2nDqnUgY3V0ZSIsImV4cCI6MTYwMjk2MDQ0OCwiaWF0IjoxNjAyOTQyNDQ4fQ.ixyF9FzZ7qOtjDHJwsfH1rlo2Q3zD5Z141PjqHw7aC4nWvxLaS7B9yZf2XQBR3ys0B6oFN32ZJVP93yivVAx4w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"body\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 10,\n        \"question\": \"\",\n        \"mode\": \"\",\n        \"subject\": \"\",\n        \"grade\": \"\",\n        \"type\": \"\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/api/question/get-all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"question",
+						"get-all"
+					]
+				},
+				"description": "Fillter list question"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Question Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJST0xFIjpbIlJPTEVfQURNSU4iXSwic3ViIjoiYWRtaW4iLCJpcCI6IjA6MDowOjA6MDowOjA6MSIsInVzZXJBZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjYuNSIsImZ1bGxuYW1lIjoiQWRtaW4gc2nDqnUgY3V0ZSIsImV4cCI6MTYwMjk2MDQ0OCwiaWF0IjoxNjAyOTQyNDQ4fQ.ixyF9FzZ7qOtjDHJwsfH1rlo2Q3zD5Z141PjqHw7aC4nWvxLaS7B9yZf2XQBR3ys0B6oFN32ZJVP93yivVAx4w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"body\": {\n        \"id\": 22\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/api/question/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"question",
+						"get"
+					]
+				},
+				"description": "Get question"
+			},
+			"response": []
+		},
+		{
+			"name": "Add List Question To Exam Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJST0xFIjpbIlJPTEVfQURNSU4iXSwic3ViIjoiYWRtaW4iLCJpcCI6IjA6MDowOjA6MDowOjA6MSIsInVzZXJBZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjYuNSIsImZ1bGxuYW1lIjoiQWRtaW4gc2nDqnUgY3V0ZSIsImV4cCI6MTYwMjk2MDQ0OCwiaWF0IjoxNjAyOTQyNDQ4fQ.ixyF9FzZ7qOtjDHJwsfH1rlo2Q3zD5Z141PjqHw7aC4nWvxLaS7B9yZf2XQBR3ys0B6oFN32ZJVP93yivVAx4w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"body\": {\n        \"examId\": 5,\n        \"questionIds\": [11,12,13,14,15,16,17,18,19,20]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/api/question/add-to-exam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"question",
+						"add-to-exam"
+					]
+				},
+				"description": "Thêm list question vào đề"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
