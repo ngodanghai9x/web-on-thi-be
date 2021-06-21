@@ -20,6 +20,7 @@ import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import vn.actvn.onthionline.common.exception.CustomAuthenticationEntryPoint;
 import vn.actvn.onthionline.common.service.JwtRequestFilter;
+import vn.actvn.onthionline.common.service.JwtUserDetailsService;
 
 import java.util.Arrays;
 
@@ -29,7 +30,7 @@ import java.util.Arrays;
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    private UserDetailsService jwtUserDetailsService;
+    private JwtUserDetailsService jwtUserDetailsService;
     @Autowired
     private JwtRequestFilter jwtRequestFilter;
 
