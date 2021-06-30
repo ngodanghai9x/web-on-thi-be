@@ -1,3 +1,6 @@
+#### project web ôn thi backend
+- Do bạn khác cùng nhóm làm
+- Gần đây mới clone lại để deloy
 ## Development
 
 To start your application in the dev profile, simply run:
